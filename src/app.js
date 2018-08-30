@@ -7,4 +7,7 @@ Vue.component('g-svg',Svg)
 
 new Vue({
   el:'#app',
+  data:{
+    loading:false
+  }
 })

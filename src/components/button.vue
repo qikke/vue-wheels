@@ -1,8 +1,10 @@
 <template>
-  <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-    <g-svg v-if="icon" :icon="icon" class="icon"></g-svg>
-    <div class="content"><slot></slot></div>
-
+  <button class="g-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
+    <g-svg v-if="loading" icon="loading" class="loading icon"></g-svg>
+    <g-svg v-if="icon && !loading" :icon="icon" class="icon"></g-svg>
+    <div class="content">
+      <slot></slot>
+    </div>
   </button>
 </template>
 
@@ -11,11 +13,15 @@
     props: {
       icon: {},
       iconPosition: {
-        type:String,
-        default:'left',
-        validator(value){
+        type: String,
+        default: 'left',
+        validator(value) {
           return value === 'left' || value === 'right'
         }
+      },
+      loading:{
+        type: Boolean,
+        default: false,
       }
     }
   }
@@ -29,21 +35,26 @@
     border-radius: var(--border-radius);
     border: 1px solid var(--border-color);
     background: var(--button-bg);
-    display: inline-flex; justify-content: center; align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     vertical-align: middle;
     > .icon {
       order: 0;
     }
+    > .loading {
+      animation: loading 2s linear infinite;
+    }
 
-    &.icon-right{
-      >.icon{
-        order:1;
+    &.icon-right {
+      > .icon {
+        order: 1;
         margin-left: .2em;
       }
     }
-    &.icon-left{
-      >.icon{
-        order:0;
+    &.icon-left {
+      > .icon {
+        order: 0;
         margin-right: .2em;
       }
     }
@@ -57,6 +68,14 @@
     &:focus {
       outline: none;
     }
+  }
 
+  @keyframes loading {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 </style>
