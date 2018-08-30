@@ -2,7 +2,7 @@
 <html lang="hans">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>vue-wheels</title>
   <style>
     *{
       margin:0;
@@ -19,14 +19,19 @@
       --border-color:#999;
       --border-color-hover:#666;
     }
+    body{
+      font-size: var(--font-size);
+      margin:20px;
+    }
   </style>
 </head>
 <body>
   <div id="app">
-    <g-button></g-button>
+    <g-button icon="setting" icon-position="left">按钮</g-button>
   </div>
 
-  <!--<script src="node_modules/vue/dist/vue.js"></script>-->
+
   <script src="./src/app.js"></script>
+  <script src="//at.alicdn.com/t/font_816235_5f6znbiiz9y.js"></script>
 </body>
 </html>
