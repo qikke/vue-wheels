@@ -9,7 +9,11 @@
 </template>
 
 <script>
+  import Svg from './svg'
   export default {
+    components:{
+      'g-svg':Svg
+    },
     props: {
       icon: {},
       iconPosition: {
