@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd486227-e687-4af4-9b30-cc03f534e35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/adad55f6f5b20f3664e1fadd23da3f56.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/adad55f6f5b20f3664e1fadd23da3f56.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,9 +58,9 @@
           <entry key="gitignore" value="10" />
           <entry key="html" value="996" />
           <entry key="ignore" value="11" />
-          <entry key="js" value="466" />
+          <entry key="js" value="471" />
           <entry key="json" value="89" />
-          <entry key="vue" value="2547" />
+          <entry key="vue" value="2553" />
           <entry key="yml" value="182" />
         </counts>
       </usages-collector>
@@ -71,9 +68,9 @@
         <counts>
           <entry key="HTML" value="996" />
           <entry key="JSON" value="89" />
-          <entry key="JavaScript" value="466" />
+          <entry key="JavaScript" value="471" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Vue.js" value="2547" />
+          <entry key="Vue.js" value="2553" />
           <entry key="YAML" value="182" />
         </counts>
       </usages-collector>
@@ -93,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/input.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="e#190#220#0" />
                 <element signature="e#238#293#0" />
@@ -108,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/input.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="1650">
+              <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
               <folding>
                 <element signature="e#28#49#0" expanded="true" />
               </folding>
@@ -211,8 +208,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/icon.vue" />
         <option value="$PROJECT_DIR$/src/svg.js" />
-        <option value="$PROJECT_DIR$/src/components/input.vue" />
         <option value="$PROJECT_DIR$/test/input.test.js" />
+        <option value="$PROJECT_DIR$/src/components/input.vue" />
       </list>
     </option>
   </component>
@@ -313,12 +310,12 @@
       <workItem from="1535711053175" duration="416000" />
       <workItem from="1535711498052" duration="1750000" />
       <workItem from="1535943105127" duration="3737000" />
-      <workItem from="1536025161528" duration="5716000" />
+      <workItem from="1536025161528" duration="6529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35641000" />
+    <option name="totallyTimeSpent" value="36454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -470,29 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/input.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#190#220#0" />
-            <element signature="e#238#293#0" />
-            <element signature="e#310#350#0" />
-            <element signature="e#401#431#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/button.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/svg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -509,10 +483,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/input.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="1650">
+          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
           <folding>
             <element signature="e#28#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/button.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#27#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/input.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#190#220#0" />
+            <element signature="e#238#293#0" />
+            <element signature="e#310#350#0" />
+            <element signature="e#401#431#0" />
           </folding>
         </state>
       </provider>
