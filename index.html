@@ -4,44 +4,59 @@
   <meta charset="UTF-8">
   <title>vue-wheels</title>
   <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
-    }
-    :root{
-      --button-height:32px;
-      --font-size:14px;
-      --button-bg:white;
-      --button-active-bg:#eee;
-      --border-radius:4px;
-      --color:#333;
-      --border-color:#999;
-      --border-color-hover:#666;
-    }
-    body{
-      font-size: var(--font-size);
-      margin:20px;
+    * {margin: 0;padding: 0;box-sizing: border-box;}
+
+    :root {--button-height: 32px;--font-size: 14px;--button-bg: white;--button-active-bg: #eee;--border-radius: 4px;--color: #333;
+      --border-color: #999;--border-color-hover: #666;}
+
+    body {font-size: var(--font-size);margin: 20px;}
+
+    .demo {
+      background: #eee;
+      height: 50px;
+      border:1px solid;
     }
   </style>
 </head>
 <body>
-  <div id="app">
-    <g-button icon="setting" icon-position="left" :loading="loading" @click="loading = !loading">按钮</g-button>
-    <g-button-group>
-      <g-button>按钮</g-button>
-      <g-button>按钮</g-button>
-      <g-button>按钮</g-button>
-    </g-button-group>
+<div id="app">
+  <g-row>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+    <g-col span="24" :ipad="{span:12}" :narrow-pc="{span:8}">
+      <div class="demo"></div>
+    </g-col>
+  </g-row>
 
-    <g-input value="亓凯1"></g-input>
-    <g-input value="亓凯2" disabled></g-input>
-    <g-input value="亓凯3" readonly></g-input>
-    <g-input value="亓凯4" error="密码错误"></g-input>
-  </div>
+
+  <g-button icon="setting" icon-position="left" :loading="loading" @click="loading = !loading">按钮</g-button>
+  <g-button-group>
+    <g-button>按钮</g-button>
+    <g-button>按钮</g-button>
+    <g-button>按钮</g-button>
+  </g-button-group>
+
+  <g-input value="亓凯1"></g-input>
+  <g-input value="亓凯2" disabled></g-input>
+  <g-input value="亓凯3" readonly></g-input>
+  <g-input value="亓凯4" error="密码错误"></g-input>
+</div>
 
 
-  <script src="./src/app.js"></script>
-  <!--<script src="//at.alicdn.com/t/font_816235_fssxwqoxlz.js"></script>-->
+<script src="./src/app.js"></script>
+<!--<script src="//at.alicdn.com/t/font_816235_fssxwqoxlz.js"></script>-->
 </body>
 </html>
