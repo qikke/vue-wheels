@@ -13,12 +13,21 @@ Vue.component('g-input',Input)
 Vue.component('g-row',Row)
 Vue.component('g-col',Col)
 
-Vue.use(plugin)
+
+let toastOption = {
+  closeButton: {
+    text:'xxx',
+    callback:()=>{
+      console.log('this is callback!')
+    }
+  }
+}
+Vue.use(plugin,toastOption)
 
 
 new Vue({
   el:'#app',
   data:{
     loading:false
-  },
+  }
 })
