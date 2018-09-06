@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd486227-e687-4af4-9b30-cc03f534e35a" name="Default Changelist" comment="add toast's propsData">
-      <change beforePath="$PROJECT_DIR$/.cache/abf321ee9c8982b216bc9021d85ad9eb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/abf321ee9c8982b216bc9021d85ad9eb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e349a42394471baeca787e13ca4fac9a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e349a42394471baeca787e13ca4fac9a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toast.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +18,7 @@
     <session id="2042334175">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -43,7 +38,7 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="4" />
           <entry key="ignore" value="1" />
-          <entry key="js" value="15" />
+          <entry key="js" value="17" />
           <entry key="json" value="7" />
           <entry key="md" value="6" />
           <entry key="ts" value="1" />
@@ -55,7 +50,7 @@
         <counts>
           <entry key="HTML" value="4" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Scratch" value="2" />
@@ -69,10 +64,10 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="1361" />
           <entry key="ignore" value="11" />
-          <entry key="js" value="1498" />
+          <entry key="js" value="1568" />
           <entry key="json" value="89" />
-          <entry key="txt" value="116" />
-          <entry key="vue" value="4233" />
+          <entry key="txt" value="128" />
+          <entry key="vue" value="4279" />
           <entry key="yml" value="182" />
         </counts>
       </usages-collector>
@@ -80,9 +75,9 @@
         <counts>
           <entry key="HTML" value="1361" />
           <entry key="JSON" value="89" />
-          <entry key="JavaScript" value="1498" />
-          <entry key="PLAIN_TEXT" value="144" />
-          <entry key="Vue.js" value="4233" />
+          <entry key="JavaScript" value="1568" />
+          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="Vue.js" value="4279" />
           <entry key="YAML" value="182" />
         </counts>
       </usages-collector>
@@ -102,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="350">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -112,10 +107,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/toast.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#28#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/toast.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -135,8 +142,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -173,8 +180,10 @@
         <option value="$PROJECT_DIR$/src/layout/slider.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/plugin.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/test/toast.js" />
+        <option value="$PROJECT_DIR$/test/toast.test.js" />
         <option value="$PROJECT_DIR$/src/components/toast.vue" />
       </list>
     </option>
@@ -223,6 +232,11 @@
               <item name="vue-wheels" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-wheels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-wheels" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +292,7 @@
       <workItem from="1536112797687" duration="5780000" />
       <workItem from="1536134769569" duration="1609000" />
       <workItem from="1536161612514" duration="599000" />
-      <workItem from="1536200101664" duration="11115000" />
+      <workItem from="1536200101664" duration="12996000" />
     </task>
     <task id="LOCAL-00001" summary="补充 close,line css">
       <created>1536204623707</created>
@@ -308,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536213367753</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add 测试用例">
+      <created>1536216915069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536216915069</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57637000" />
+    <option name="totallyTimeSpent" value="59518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -368,7 +389,8 @@
     <MESSAGE value="add closeButton" />
     <MESSAGE value="add toast's propsData" />
     <MESSAGE value="control position" />
-    <option name="LAST_COMMIT_MESSAGE" value="control position" />
+    <MESSAGE value="add 测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 测试用例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/button.js" />
@@ -556,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        <state relative-caret-position="350">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -574,7 +596,17 @@
     <entry file="file://$PROJECT_DIR$/src/components/toast.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/toast.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#28#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

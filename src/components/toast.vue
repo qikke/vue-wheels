@@ -13,7 +13,7 @@
     name: "k-toast",
     props: {
       autoClose: {type: Boolean, default: true},
-      autoCloseDelay: {type: Number, default: 3},
+      autoCloseDelay: {type: Number, default: 1},
       position:{
         type:String,
         default:'top',
@@ -57,6 +57,7 @@
       },
       close() {
         this.$el.remove()
+        this.$emit('close')
         this.$destroy()
       },
       onClickClose() {
