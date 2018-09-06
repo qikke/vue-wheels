@@ -21,7 +21,7 @@ new Vue({
   data:{
     loading:false
   },
-  mounted(){
+  created(){
     this.$toast('111')
   }
 })
