@@ -21,7 +21,4 @@ new Vue({
   data:{
     loading:false
   },
-  created(){
-    this.$toast('111')
-  }
 })
