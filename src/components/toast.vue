@@ -1,5 +1,5 @@
 <template>
-  <div class="toast" ref="wrapper">
+  <div ref="wrapper" :class="['toast',execPosition]">
     <div class="content">
       <slot></slot>
     </div>
@@ -14,6 +14,13 @@
     props: {
       autoClose: {type: Boolean, default: true},
       autoCloseDelay: {type: Number, default: 3},
+      position:{
+        type:String,
+        default:'top',
+        validator(value){
+          return ['top','bottom','middle'].indexOf(value) >= 0
+        }
+      },
       closeButton: {
         type: Object,
         default: () => {
@@ -26,17 +33,22 @@
         }
       }
     },
+    computed:{
+      execPosition(){
+        return `position-${this.position}`
+      }
+    },
     mounted() {
       this.updateStyle()
       this.execClose()
     },
     methods: {
-      updateStyle(){
-        this.$nextTick(()=>{
+      updateStyle() {
+        this.$nextTick(() => {
           this.$refs.line.style.height = this.$refs.wrapper.offsetHeight + 'px'
         })
       },
-      execClose(){
+      execClose() {
         if (this.autoClose) {
           window.setTimeout(() => {
             this.close()
@@ -60,13 +72,16 @@
   $toast-min-height: 40px;
   $toast-bg: rgba(0, 0, 0, 0.75);
   .toast {
-    font-size: $font-size;min-height: $toast-min-height;line-height: 1.8;position: fixed;top: 0;
+    font-size: $font-size;min-height: $toast-min-height;line-height: 1.8;position: fixed;
     left: 50%;transform: translateX(-50%);display: flex;color: white;align-items: center;
     background: $toast-bg;border-radius: 4px;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);padding: 0 16px;
-    .content{
-      padding:8px 0;
+    .content {
+      padding: 8px 0;
     }
     .line {height: 100%;border-left: 1px solid #666;margin-left: 16px;}
     .close {padding-left: 16px;}
+    &.position-top {top: 0;transform: translateX(-50%);}
+    &.position-bottom {bottom: 0;transform: translateX(-50%);}
+    &.position-middle {top: 50%;transform: translate(-50%, -50%);}
   }
 </style>
