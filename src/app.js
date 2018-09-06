@@ -4,6 +4,7 @@ import ButtonGroup from './components/button-group'
 import Input from './components/input'
 import Row from './components/row'
 import Col from './components/col'
+import plugin from './plugin'
 
 
 Vue.component('g-button',Button)
@@ -12,9 +13,15 @@ Vue.component('g-input',Input)
 Vue.component('g-row',Row)
 Vue.component('g-col',Col)
 
+Vue.use(plugin)
+
+
 new Vue({
   el:'#app',
   data:{
     loading:false
+  },
+  mounted(){
+    this.$toast('111')
   }
 })
