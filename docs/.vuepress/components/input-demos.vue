@@ -3,17 +3,17 @@
     <ol class="description">
       <li>
         disabled
-        <KInput disabled value="123"></KInput>
+        <k-input disabled value="123"></k-input>
         <pre><code>{{content.disabled}}</code></pre>
       </li>
       <li>
         readonly
-        <KInput readonly="true" value="123"></KInput>
+        <k-input readonly="true" value="123"></k-input>
         <pre><code>{{content.readonly}}</code></pre>
       </li>
       <li>
         error
-        <KInput error="密码错误" ></KInput>
+        <k-input error="密码错误" ></k-input>
         <pre><code>{{content.error}}</code></pre>
       </li>
     </ol>
@@ -30,9 +30,9 @@
     data(){
       return {
         content:{
-          disabled:'<KInput disabled value="123"></KInput>',
-          readonly:'<KInput readonly="true" value="123"></KInput>',
-          error:'<KInput error="密码错误" ></KInput>',
+          disabled:'<k-input disabled value="123"></k-input>',
+          readonly:'<k-input readonly="true" value="123"></k-input>',
+          error:'<k-input error="密码错误" ></k-input>',
         }
       }
     },
