@@ -9,6 +9,7 @@
 </script>
 
 <style scoped lang="scss">
+  $border-radius: 4px;
   .button-group {
     display: inline-flex;
     vertical-align: middle;
@@ -19,12 +20,12 @@
       }
     }
     > :first-child {
-      border-top-left-radius: var(--border-radius);
-      border-bottom-left-radius: var(--border-radius);
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
     }
     > :last-child {
-      border-top-right-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
     }
     >:not(:first-child){
       margin-left: -1px;
