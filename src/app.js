@@ -10,6 +10,7 @@ import TabsBody from './tabs/tabs-body'
 import TabsHead from './tabs/tabs-heads'
 import TabsItem from './tabs/tabs-item'
 import TabsPane from './tabs/tabs-pane'
+import Popover from './components/popover'
 
 
 Vue.component('g-button', Button)
@@ -22,6 +23,7 @@ Vue.component('k-body', TabsBody)
 Vue.component('k-head', TabsHead)
 Vue.component('k-item', TabsItem)
 Vue.component('k-pane', TabsPane)
+Vue.component('k-popover', Popover)
 
 
 let toastOption = {

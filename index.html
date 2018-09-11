@@ -20,6 +20,8 @@
 </head>
 <body>
 <div id="app">
+
+
   <k-tabs selected="x1">
     <k-head>
       <k-item name="x1">x123</k-item>
@@ -73,7 +75,25 @@
   <button @click="onClickToast()">
     toast-click
   </button>
+
+  <br>
+
+  <k-popover position="right">
+    <template slot="content">
+      this is popover
+    </template>
+    click me
+  </k-popover>
+
+
+
+
+
+
+
 </div>
+
+
 
 
 
