@@ -2,7 +2,7 @@
   <transition name="slide">
     <div class="sider" v-if="visible">
       <slot></slot>
-      <button @click="visible=false">close</button>
+      <span @click="visible=false" class="close">x</span>
     </div>
   </transition>
 </template>
@@ -21,10 +21,11 @@
 <style lang="scss" scoped>
   .sider {
     position: relative;
-    > button {
+    > .close {
       position: absolute;
       top: 0;
-      right: 0;
+      right: 0.5em;
+      cursor: pointer;
     }
   }
   .slide-enter-active, .slide-leave-active {
