@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd486227-e687-4af4-9b30-cc03f534e35a" name="Default Changelist" comment="add toast's propsData">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/input-demos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/components/input.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.d1cad3c6.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.e882c90a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/components/button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/get-started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/get-started/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/install/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/install/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,10 +44,10 @@
           <entry key="ignore" value="1" />
           <entry key="js" value="18" />
           <entry key="json" value="9" />
-          <entry key="md" value="13" />
+          <entry key="md" value="14" />
           <entry key="sh" value="1" />
           <entry key="ts" value="1" />
-          <entry key="vue" value="33" />
+          <entry key="vue" value="36" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -62,11 +56,11 @@
           <entry key="HTML" value="6" />
           <entry key="JSON" value="9" />
           <entry key="JavaScript" value="18" />
-          <entry key="Markdown" value="9" />
+          <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Scratch" value="2" />
           <entry key="TypeScript" value="1" />
-          <entry key="Vue.js" value="33" />
+          <entry key="Vue.js" value="36" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -75,12 +69,12 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="1671" />
           <entry key="ignore" value="11" />
-          <entry key="js" value="1863" />
+          <entry key="js" value="1883" />
           <entry key="json" value="91" />
-          <entry key="md" value="202" />
+          <entry key="md" value="219" />
           <entry key="sh" value="15" />
           <entry key="txt" value="174" />
-          <entry key="vue" value="5153" />
+          <entry key="vue" value="5322" />
           <entry key="yml" value="182" />
         </counts>
       </usages-collector>
@@ -88,10 +82,10 @@
         <counts>
           <entry key="HTML" value="1687" />
           <entry key="JSON" value="91" />
-          <entry key="JavaScript" value="1863" />
-          <entry key="Markdown" value="202" />
+          <entry key="JavaScript" value="1883" />
+          <entry key="Markdown" value="219" />
           <entry key="PLAIN_TEXT" value="217" />
-          <entry key="Vue.js" value="5137" />
+          <entry key="Vue.js" value="5306" />
           <entry key="YAML" value="182" />
         </counts>
       </usages-collector>
@@ -102,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -117,48 +111,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/input.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/input-demos.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-              <folding>
-                <element signature="n#script#0;n#!!top" />
-                <element signature="e#595#646#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/button-group.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/button.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+        <entry file="file://$PROJECT_DIR$/docs/components/input.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="125">
@@ -241,10 +222,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/button.vue" />
         <option value="$PROJECT_DIR$/docs/components/button.md" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/src/components/button-group.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue" />
+        <option value="$PROJECT_DIR$/docs/components/input.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/input-demos.vue" />
       </list>
     </option>
   </component>
@@ -387,7 +370,7 @@
       <workItem from="1536231358222" duration="1198000" />
       <workItem from="1536282909548" duration="3595000" />
       <workItem from="1536543610952" duration="2096000" />
-      <workItem from="1536648237273" duration="9455000" />
+      <workItem from="1536648237273" duration="10222000" />
     </task>
     <task id="LOCAL-00001" summary="补充 close,line css">
       <created>1536204623707</created>
@@ -456,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75862000" />
+    <option name="totallyTimeSpent" value="76629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -714,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/input.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/tabs.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -799,27 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="125">
-            <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -844,14 +803,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/input.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/input.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/button-demos.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding>
-            <element signature="n#script#0;n#!!top" />
-            <element signature="e#595#646#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/input-demos.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>

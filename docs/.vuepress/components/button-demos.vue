@@ -62,11 +62,6 @@
 </script>
 
 <style scoped lang="scss">
-  ol,li{
-    list-style: none;
-    margin:0;
-    padding:0;
-  }
   .description{
     li{
       /*border:1px solid;*/
