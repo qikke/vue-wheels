@@ -1,7 +1,7 @@
 <template>
   <div ref="wrapper" :class="['toast',execPosition]">
     <div class="content">
-      <slot></slot>
+      <slot>this is a toast!</slot>
     </div>
     <div class="line" ref="line"></div>
     <span class="close" @click="onClickClose">{{closeButton.text}}</span>
@@ -13,7 +13,7 @@
     name: "k-toast",
     props: {
       autoClose: {type: Boolean, default: true},
-      autoCloseDelay: {type: Number, default: 1},
+      autoCloseDelay: {type: Number, default: 2},
       position:{
         type:String,
         default:'top',
@@ -80,7 +80,7 @@
     animation:fade-in .5s;
     font-size: $font-size;min-height: $toast-min-height;line-height: 1.8;position: fixed;
     left: 50%;transform: translateX(-50%);display: flex;color: white;align-items: center;
-    background: $toast-bg;border-radius: 4px;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);padding: 0 16px;
+    background: $toast-bg;border-radius: 4px;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);padding: 0 16px;z-index: 100;
     .content {
       padding: 8px 0;
     }
