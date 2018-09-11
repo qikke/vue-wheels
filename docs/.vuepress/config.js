@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/vue-wheels/',
   title: 'K UI',
   description: '一个好用的UI框架',
   themeConfig:{
