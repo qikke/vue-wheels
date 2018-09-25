@@ -1,6 +1,6 @@
 {
   "name": "qikke-wheels",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "vue-wheels",
   "main": "dist/index.js",
   "scripts": {
